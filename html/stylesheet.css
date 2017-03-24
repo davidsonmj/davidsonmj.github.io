@@ -1,0 +1,167 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #337AB7;
+    background-color: #C8C8C8;
+}
+
+.paragraph {}
+
+.bestmeme {
+    position: absolute;
+    left: -300px;
+    top: 100px;
+    animation: 2s roll1 infinite;
+}
+
+.memetext {
+    font-size: 50px;
+    position: absolute;
+    top: 170px;
+    left: 1100px;
+}
+
+.harold {
+    position: absolute;
+    left: -20px;
+    top: 554px;
+}
+
+.harold2 {
+    position: absolute;
+}
+
+.hoversong {
+    background-color: #337AB7;
+    position: relative;
+    top: 300px;
+    right: 520px;
+    float: right;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    border: 90px solid transparent;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #337AB7;
+    position: relative;
+    top: -60px;
+    right: 20px;
+    float: right;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    border: 8px solid transparent;
+    border-radius: 4px;
+}
+
+.myblog {
+    font-size: 34px;
+    position: relative;
+    font-weight: strong;
+    font-family: 'Raleway', sans-serif;
+    color: #337AB7;
+}
+
+.nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+.meme1 {
+    animation: 1.3s rotateRight infinite linear;
+    position: absolute;
+    left: 710px;
+    top: 276px;
+}
+
+.meme2 {
+    animation: 2.5s roll infinite;
+    position: absolute;
+    top: 720px;
+}
+
+.elmeme1 {
+    font-size: 84px;
+    position: absolute;
+    left: 100px;
+    top: 180px;
+    animation: 1.0s rotateRight infinite linear;
+}
+
+.elmeme2 {
+    font-size: 84px;
+    position: absolute;
+    right: 100px;
+    top: 180px;
+    animation: 1.0s rotateRight infinite linear;
+}
+
+.elmeme3 {
+    font-size: 84px;
+    position: absolute;
+    right: 540px;
+    top: 600px;
+}
+
+.rain {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+
+@keyframes rotateRight {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes roll {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    from {
+        left: 0;
+    }
+    to {
+        left: 87%;
+    }
+}
+
+@keyframes roll1 {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    from {
+        left: 0;
+    }
+    to {
+        left: 60%;
+    }
+}
